@@ -171,6 +171,6 @@ $RECYCLE.BIN/
 
 # Drivers
 # drivers/
-drivers/LICENSE
+drivers/LICENSE.chromedriver
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,java,jetbrains
