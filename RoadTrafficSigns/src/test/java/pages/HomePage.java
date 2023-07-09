@@ -11,15 +11,15 @@ public class HomePage {
     private WebDriverWait wait;
     private String url = "https://www.roadtrafficsigns.com/";
 
+    @FindBy(xpath = "//*[@id='department_grid_25059']/div[1]//div[@class='product_heading']")
+    public WebElement customTrafficSignsTextLink;
+
     @FindBy(xpath = "//*[@id='department_grid_25059']/div[1]//div[@class='dept_imagebox']")
     public WebElement customTrafficSignsImageBox;
 
     @FindBy(xpath = "//*[@class='ss_dept_main_heading ']//h1")
     public WebElement customTrafficSignsPageHeading;
 
-//    @FindBy(xpath = "")
-//    public WebElement ;
-//
 //    @FindBy(xpath = "")
 //    public WebElement ;
 //
