@@ -21,7 +21,7 @@ public class TestBase {
         System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
         var options = new ChromeOptions();
         options.addArguments("--start-maximized");
-        options.addArguments("--incognito");
+//        options.addArguments("--incognito");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 //        driver.manage().window().setSize(new Dimension(1920, 1080));
